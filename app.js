@@ -7,7 +7,7 @@ $(document).ready(function () {
             async function myweather() {
                 let responce = await fetch(url);
                 let data = await responce.json();
-                $("city").html(data.name);
+                $("#city").html(data.name);
                 $("#temp").html(data.main.temp);
                 $("#feels").html(data.main.feels_like);
                 $("#myweather").val("");
@@ -22,7 +22,7 @@ $(document).ready(function () {
         async function myweather() {
             let responce = await fetch(url);
             let data = await responce.json();
-            $("city").html(data.name);
+            $("#city").html(data.name);
             $("#temp").html(data.main.temp);
             $("#feels").html(data.main.feels_like);
             $("#myweather").val("");
