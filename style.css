@@ -15,17 +15,24 @@ body {
 #weather .box .data h1, #weather .box .data h2 {
   margin: 15px;
   font-size: 25px;
+  color: white;
   display: flex;
   justify-content: center;
 }
 #weather .box input {
   padding: 10px 0;
   border-radius: 15px;
-  margin-left: 50px;
+  margin-left: 53px;
 }
 #weather .box #btn {
-  font-size: 25px;
+  font-size: 20px;
   padding: 15px 0;
+  background: #3743ac;
+  color: white;
+  padding: 8px 0;
+  margin: 20px 0 0 85px;
+  width: 85px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=style.css.map */
