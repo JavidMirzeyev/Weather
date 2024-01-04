@@ -7,27 +7,26 @@ body {
   padding-top: 80px;
 }
 #weather .box {
-  border: 1px solid #33a0c2;
-  background: #33a0c2;
-  border-radius: 25px;
-  padding: 35px 0;
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  border-radius: 20px;
+  padding: 10px 0 30px;
 }
-#weather .box .data h1, #weather .box .data h2 {
-  margin: 15px;
+#weather .box .data h2 {
+  margin: 25px 0;
   font-size: 25px;
   color: white;
   display: flex;
   justify-content: center;
 }
 #weather .box input {
-  padding: 10px 0;
-  border-radius: 15px;
-  margin-left: 53px;
+  padding: 8px 10px;
+  border-radius: 20px;
+  margin-left: 45px;
 }
 #weather .box #btn {
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px 0;
-  background: #3743ac;
+  background: rgba(22, 87, 124, 0.6235294118);
   color: white;
   padding: 8px 0;
   margin: 20px 0 0 85px;
