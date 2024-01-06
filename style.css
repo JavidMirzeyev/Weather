@@ -20,9 +20,9 @@ body {
   justify-content: center;
 }
 #weather .box input {
-  padding: 8px 0;
+  padding: 8px 0 8px 5px;
   border-radius: 20px;
-  margin-left: 35px;
+  margin-left: 33px;
 }
 #weather .box #btn {
   font-size: 18px;
