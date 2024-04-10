@@ -3,13 +3,12 @@
     .box
         background: #a4caff
         border-radius: 20px
-        margin-left: 75px
-        padding: 10px 0 
+        padding: 10px 0
         width: 220px
-       
+
         .data
             h2
-                margin: 25px 0 
+                margin: 25px 0
                 font-size: 25px
                 color: #ffff
                 display: flex
@@ -23,9 +22,17 @@
             font-size: 18px
             background: #79afff
             color: #ffff
-            padding: 8px 50px 
+            padding: 8px 50px
             margin: 20px 0 15px 60px
             width: 85px
             border-radius: 20px
             display: flex
             justify-content: center
+
+    @media ( max-width: 400px )
+        .box
+            margin-left: 70px
+
+    @media ( min-width: 401px ) and ( max-width: 767px )
+        .box
+            margin-left: 150px

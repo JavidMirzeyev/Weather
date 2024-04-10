@@ -9,7 +9,6 @@ body {
 #weather .box {
   background: #a4caff;
   border-radius: 20px;
-  margin-left: 75px;
   padding: 10px 0;
   width: 220px;
 }
@@ -35,4 +34,14 @@ body {
   border-radius: 20px;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 400px) {
+  #weather .box {
+    margin-left: 70px;
+  }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+  #weather .box {
+    margin-left: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */
