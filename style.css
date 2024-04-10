@@ -9,6 +9,7 @@ body {
 #weather .box {
   background: #a4caff;
   border-radius: 20px;
+  margin-left: 75px;
   padding: 10px 0;
   width: 220px;
 }
