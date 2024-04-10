@@ -35,12 +35,12 @@ body {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 400px) {
+@media (max-width: 449px) {
   #weather .box {
     margin-left: 70px;
   }
 }
-@media (min-width: 401px) and (max-width: 767px) {
+@media (min-width: 450px) and (max-width: 767px) {
   #weather .box {
     margin-left: 150px;
   }
